@@ -1,25 +1,31 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+
+   <!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão: Inteligência Artificial</title>
     <link rel="stylesheet" href="style.css">
-    <title>Você decide o futuro da IA</title>
 </head>
 <body>
-    <div class="caixa-principal">
-        <h1>Você decide o futuro da IA</h1>
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado">
-            <p class="texto-resultado"></p>
+    <div class="container">
+        <h1>Missão: Inteligência Artificial</h1>
+        <div id="quiz-container">
+            <p id="question"></p>
+            <div id="options"></div>
+            <button id="next-btn">Próxima</button>
+        </div>
+        <div id="result-container" class="hidden">
+            <h2>Resumo da sua Missão</h2>
+            <p id="result"></p>
+            <button id="restart-btn">Reiniciar</button>
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <script src="main.js"></script>
 </body>
 </html>
 
-   
    
    
     
